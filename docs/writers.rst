@@ -51,6 +51,12 @@ be set).
     left aligned.
 
     .. versionadded:: 0.6
+    
+:write_text:
+    If false the barcode content's text will not be drawn next to the barcode.
+    
+    This option can only passed  to the ``Barcode.save(filename, options)``
+    method.
 
 .. note::
    Some barcode classes change the above defaults to fit in some kind
